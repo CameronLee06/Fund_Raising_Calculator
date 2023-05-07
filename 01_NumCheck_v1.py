@@ -21,3 +21,6 @@ get_int = num_check("How many do you need? ",
 get_cost = num_check("How much does it cost? $",
                      "Please enter a number more than 0\n",
                      float)
+
+print("You need {}".format(get_int))
+print("It costs: ${}".format(get_cost))
